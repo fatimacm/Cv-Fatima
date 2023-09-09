@@ -1,0 +1,106 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    
+}
+
+body {
+    background-color: #d4cbcb;
+}
+
+.div-container { 
+    
+    display: flex;
+    justify-content: center;
+
+  
+}
+
+.div {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    flex-basis: 60%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.div-name {
+    width:100%;
+    margin-left: 65px;
+    margin-top: 60px;
+    
+   
+  
+}
+.div-academic {
+    margin-top: 145px;
+
+   
+}
+
+.div-left {
+    width: 40%;
+    justify-content: center;
+
+    box-shadow: 95px 0px 100px 10px rgb(170, 96, 249) inset;
+}
+
+.div-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    & img {
+        border: 2px solid #000;
+        margin-top: 23%;
+        border-radius: 100%;
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;    
+        
+    }
+
+}
+
+.div-about{
+  
+    width: 100%;
+    margin-top: 110px;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Gentium Plus', serif;
+    font-size: 50px;
+    font-weight: 1;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+b{
+    font-size: 18px;
+}
+
+i {
+    color: #000000;
+    font-size: 23px;
+    padding: 5%;
+}
+
+
+
+@media(min-width: 600px){
+    main {
+        flex-wrap: nowrap;
+    }
+}
+
+
+
